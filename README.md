@@ -1,16 +1,8 @@
-# React + Vite
+Weather App
+A React-based weather application that fetches real-time weather data from the OpenWeatherMap API and displays it through a clean, responsive Material UI interface. Users can search any city to view live temperature, humidity, and weather conditions, while the UI dynamically adapts — swapping background images and icons — based on whether conditions are hot, cold, or rainy.
+Features:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Real-time weather data via OpenWeatherMap API
+Search by city name with error handling for invalid locations
+Dynamic UI: background image and weather icon change based on temperature and conditions (hot / cold / rain)
+Built with React, Material UI (MUI), and Vite
